@@ -1,0 +1,45 @@
+<view class="container">
+  <view class="slide">
+      <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+          <block wx:for="{{imgUrls}}">
+              <swiper-item>
+                  <image src="{{item}}" class="slide-image" width="355" height="150" mode="aspectFill"/>
+              </swiper-item>
+          </block>
+      </swiper>
+  </view>
+        <!--<view class="section__title">flex-direction: row</view>-->
+        <view class="flex-wrp">
+           <view class="flex-item bc_a">
+                <text>大会介绍</text>
+           </view>
+           <view class="flex-item bc_b">
+                <text>会议议程</text>
+           </view>
+           <view class="flex-item bc_c">
+                <text>嘉宾信息</text>
+           </view>
+        </view>
+    <view class="flex-wrp">
+        <view class="flex-item bc_d">
+            <text>参会指南</text>
+        </view>
+        <view class="flex-item bc_e">
+            <text>会场导航</text>
+        </view>
+        <view class="flex-item bc_f">
+            <text>乌镇介绍</text>
+        </view>
+    </view>
+    <view class="flex-wrp">
+        <view class="flex-item bc_g">
+            <text>周边旅游</text>
+        </view>
+        <view class="flex-item bc_h">
+            <text>互联网之光</text>
+        </view>
+        <view class="flex-item bc_i">
+            <text>联系我们</text>
+        </view>
+    </view>
+</view>

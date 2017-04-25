@@ -1,0 +1,84 @@
+
+.slide swiper{
+  height: 400rpx;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.section{
+  width: 320 rpx;
+  height: 600 rpx;
+  background-color: red;
+}
+.flex-wrp{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
+  height: 250rpx;
+}
+.flex-wrp  .bc_a{
+  display: flex;
+  width: 33.3%;
+  height: 250 rpx;
+  background-color: #3D9CFF;
+  border: 1px solid #8A99FF;
+}
+.flex-wrp .bc_b{
+  display: flex;
+  width: 33%;
+  height: 250 rpx;
+  background-color: #FF8C47;
+  border: 1rpx solid #8A99FF;
+}
+.flex-wrp .bc_c{
+  display: flex;
+  background-color: #8A99FF;
+  border: 1rpx solid #8A99FF;
+  width: 33%;
+}
+.flex-wrp  .bc_d{
+  display: flex;
+  width: 33.3%;
+  height: 250 rpx;
+  background-color: #FF6173;
+  border: 1px solid #8A99FF;
+}
+.flex-wrp .bc_e{
+  display: flex;
+  width: 33%;
+  height: 250 rpx;
+  background-color: #85ABFF;
+  border: 1rpx solid #8A99FF;
+}
+.flex-wrp .bc_f{
+  display: flex;
+  background-color: #87D614;
+  border: 1rpx solid #8A99FF;
+  width: 33%;
+}
+.flex-wrp  .bc_g{
+  display: flex;
+  width: 33.3%;
+  height: 250 rpx;
+  background-color: #65C900;
+  border: 1px solid #8A99FF;
+}
+.flex-wrp .bc_h{
+  display: flex;
+  width: 33%;
+  height: 250 rpx;
+  background-color: #02BFE9;
+  border: 1rpx solid #8A99FF;
+}
+.flex-wrp .bc_i{
+  display: flex;
+  background-color: #FF7384;
+  border: 1rpx solid #8A99FF;
+  width: 33%;
+}
+
+
+
+
